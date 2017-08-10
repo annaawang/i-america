@@ -1,0 +1,24 @@
+/* FONTS 
+_______________________________________*/
+@font-face {
+  font-family: 'antro-vectra';
+  src: url("../fonts/antro-vectra/antro-vectra.otf") format("opentype"), url("../fonts/antro-vectra/antro-vectra.ttf") format("truetype"), url("../fonts/antro-vectra/antro-vectra.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'mermaid';
+  src: url("../fonts/mermaid/mermaid.otf") format("opentype"), url("../fonts/mermaid/mermaid.ttf") format("truetype"), url("../fonts/mermaid/mermaid.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'baskerville';
+  src: url("../fonts/baskerville/baskerville.otf") format("opentype"), url("../fonts/baskerville/baskerville.ttf") format("truetype"), url("../fonts/baskerville/baskerville.woff") format("woff");
+}
+
+/* line 29, sass/variables.scss */
+h1 {
+  font-family: "antro-vectra", sans-serif;
+}
+
+/* COLORS 
+_______________________________________*/

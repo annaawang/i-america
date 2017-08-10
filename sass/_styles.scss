@@ -1,0 +1,146 @@
+/* GRID
+_______________________________________*/
+@import '../node_modules/bourbon-neat/app/assets/stylesheets/neat';
+@import 'variables';
+
+h1 {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.screen {
+	@include span-columns(12);
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	display: none;
+
+	h1 {
+		padding-top: 7vh;
+		text-align: center;
+		font-family: $font-logo;
+		font-size: 2.5em;
+		font-weight: normal;
+	}
+}
+
+.active {
+	display: block !important;
+}
+
+#main {
+	@extend .screen;
+	background-color: $white;
+
+	
+}
+
+#intro {
+	@extend .screen;
+	background-color: $blue;
+
+	h1 {
+		color: $white-text;
+	}
+}
+
+#contents {
+	@extend .screen;
+	background-color: $red;
+
+	h1 {
+		color: $white-text;
+	}
+}
+
+
+.center {
+	@include span-columns(6 of 12);
+	@include shift(3);
+	text-align: left;
+	padding: 5% 5%;
+
+	h2 {
+		margin: 0;
+		font-family: $font-header;
+		font-size: 1.7em;
+		color: $white-text;
+		line-height: 1.4em;
+		font-weight: 200;
+	}
+
+	h3 {
+		margin: 0;
+		padding-top: 5%;
+		font-family: $font-logo;
+		font-size: 2em;
+		color: $white-text;
+		font-weight: normal;
+	}
+
+}
+/* FOOTER
+_______________________________________*/
+
+footer {
+	@include span-columns(12);
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+
+	#links {
+		@include span-columns(4 of 12);
+		padding-left: 60px;
+		a {
+			color: $grey;
+			font-family: $font-header;
+
+			li {
+				display: inline-block;
+				margin: 0 20px;
+			}
+
+			i {
+
+				float: right;
+				margin-right: 40px;
+			}
+		}
+
+	}
+
+	#circles {
+		@include span-columns(4 of 12);
+		text-align: center;
+		li {
+			display: inline-block;
+			margin: 0 20px;
+
+			i {
+				color: $grey;
+			}
+		}
+	}
+
+	#arrow {
+		@include span-columns(4 of 12);
+		a {
+			li {
+				display: inline-block;
+				float: right;
+				padding-right: 100px;
+				i {
+					color: $grey;
+				}
+			}
+			
+		}
+	}
+
+}

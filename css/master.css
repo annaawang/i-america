@@ -1,0 +1,254 @@
+/* FONTS 
+_______________________________________*/
+@font-face {
+  font-family: 'antro-vectra';
+  src: url("../fonts/antro-vectra/antro-vectra.otf") format("opentype"), url("../fonts/antro-vectra/antro-vectra.ttf") format("truetype"), url("../fonts/antro-vectra/antro-vectra.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'mermaid';
+  src: url("../fonts/mermaid/mermaid.otf") format("opentype"), url("../fonts/mermaid/mermaid.ttf") format("truetype"), url("../fonts/mermaid/mermaid.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'baskerville';
+  src: url("../fonts/baskerville/baskerville.otf") format("opentype"), url("../fonts/baskerville/baskerville.ttf") format("truetype"), url("../fonts/baskerville/baskerville.woff") format("woff");
+}
+
+/* COLORS 
+_______________________________________*/
+/* GRID
+_______________________________________*/
+/* line 4, node_modules/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, node_modules/bourbon-neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* FONTS 
+_______________________________________*/
+@font-face {
+  font-family: 'antro-vectra';
+  src: url("../fonts/antro-vectra/antro-vectra.otf") format("opentype"), url("../fonts/antro-vectra/antro-vectra.ttf") format("truetype"), url("../fonts/antro-vectra/antro-vectra.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'mermaid';
+  src: url("../fonts/mermaid/mermaid.otf") format("opentype"), url("../fonts/mermaid/mermaid.ttf") format("truetype"), url("../fonts/mermaid/mermaid.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'baskerville';
+  src: url("../fonts/baskerville/baskerville.otf") format("opentype"), url("../fonts/baskerville/baskerville.ttf") format("truetype"), url("../fonts/baskerville/baskerville.woff") format("woff");
+}
+
+/* COLORS 
+_______________________________________*/
+/* line 6, sass/_styles.scss */
+h1 {
+  margin: 0;
+}
+
+/* line 10, sass/_styles.scss */
+body {
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* line 16, sass/_styles.scss */
+.screen, #main, #intro, #contents {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+.screen:last-child, #main:last-child, #intro:last-child, #contents:last-child {
+  margin-right: 0;
+}
+
+/* line 23, sass/_styles.scss */
+.screen h1, #main h1, #intro h1, #contents h1 {
+  padding-top: 7vh;
+  text-align: center;
+  font-family: "antro-vectra", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+/* line 32, sass/_styles.scss */
+.active {
+  display: block !important;
+}
+
+/* line 36, sass/_styles.scss */
+#main {
+  background-color: #EEEAE7;
+}
+
+/* line 43, sass/_styles.scss */
+#intro {
+  background-color: #364D88;
+}
+
+/* line 47, sass/_styles.scss */
+#intro h1 {
+  color: #EEEEEE;
+}
+
+/* line 52, sass/_styles.scss */
+#contents {
+  background-color: #CC1C3A;
+}
+
+/* line 56, sass/_styles.scss */
+#contents h1 {
+  color: #EEEEEE;
+}
+
+/* line 62, sass/_styles.scss */
+.center {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+.center:last-child {
+  margin-right: 0;
+}
+
+/* line 68, sass/_styles.scss */
+.center h2 {
+  margin: 0;
+  font-family: "mermaid", serif;
+  font-size: 1.7em;
+  color: #EEEEEE;
+  line-height: 1.4em;
+  font-weight: 200;
+}
+
+/* line 77, sass/_styles.scss */
+.center h3 {
+  margin: 0;
+  padding-top: 5%;
+  font-family: "antro-vectra", sans-serif;
+  font-size: 2em;
+  color: #EEEEEE;
+  font-weight: normal;
+}
+
+/* FOOTER
+_______________________________________*/
+/* line 90, sass/_styles.scss */
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+footer:last-child {
+  margin-right: 0;
+}
+
+/* line 97, sass/_styles.scss */
+footer #links {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  padding-left: 60px;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+footer #links:last-child {
+  margin-right: 0;
+}
+
+/* line 100, sass/_styles.scss */
+footer #links a {
+  color: #989898;
+  font-family: "mermaid", serif;
+}
+
+/* line 104, sass/_styles.scss */
+footer #links a li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* line 109, sass/_styles.scss */
+footer #links a i {
+  float: right;
+  margin-right: 40px;
+}
+
+/* line 118, sass/_styles.scss */
+footer #circles {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  text-align: center;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+footer #circles:last-child {
+  margin-right: 0;
+}
+
+/* line 121, sass/_styles.scss */
+footer #circles li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* line 125, sass/_styles.scss */
+footer #circles li i {
+  color: #989898;
+}
+
+/* line 131, sass/_styles.scss */
+footer #arrow {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+
+/* line 89, node_modules/bourbon-neat/app/assets/stylesheets/grid/_span-columns.scss */
+footer #arrow:last-child {
+  margin-right: 0;
+}
+
+/* line 134, sass/_styles.scss */
+footer #arrow a li {
+  display: inline-block;
+  float: right;
+  padding-right: 100px;
+}
+
+/* line 138, sass/_styles.scss */
+footer #arrow a li i {
+  color: #989898;
+}

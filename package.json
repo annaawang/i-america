@@ -1,0 +1,27 @@
+{
+  "name": "i-america",
+  "version": "1.0.0",
+  "description": "space to celebrate diversity",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bourbon-neat": "^1.9.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaawang/i-america.git"
+  },
+  "author": "anna wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaawang/i-america/issues"
+  },
+  "homepage": "https://github.com/annaawang/i-america#readme"
+}
